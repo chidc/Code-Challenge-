@@ -1,3 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	nums1 := []int{1, 2, 3, 2, 1}
+	nums2 := []int{3, 2, 1, 4, 7}
+	fmt.Println("ket qua cuoi:", findLength(nums1, nums2))
+}
+
 // Maximum Length of Repeated Subarray
 //https://github.com/hoangst27/code-challenge/blob/main/code_challenge_2.md
 

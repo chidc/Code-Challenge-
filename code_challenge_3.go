@@ -1,3 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+	nums1 := []int{1, 2, 3, 1}
+	fmt.Println("ket qua cuoi:", findPeakElement(nums1))
+}
+
 // Find Peak Element
 // https://github.com/hoangst27/code-challenge/blob/main/code_challenge_3.md
 
